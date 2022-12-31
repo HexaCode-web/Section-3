@@ -31,7 +31,7 @@ body {
 }
 #root {
   border: 1px solid green;
-  width: 60%;
+  width: 90%;
   height: fit-content;
 }
 .Header {
@@ -51,6 +51,7 @@ body {
   width: 40px;
 }
 .Footer {
+  text-align: center;
   margin-top: 37px;
   width: 100%;
   display: flex;
@@ -71,6 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
+  gap: 30px;
 }
 .Content input[type="text"] {
   font-family: "Montserrat", sans-serif;
@@ -96,7 +98,7 @@ body {
 }
 .Meme {
   min-height: 240px;
-  max-width: 70%;
+  max-width: 90%;
   position: relative;
   margin: 0 auto;
 }
@@ -109,7 +111,6 @@ body {
   font-weight: bolder;
   position: absolute;
   width: 100%;
-
   font-family: impact, sans-serif;
   font-size: 2em;
   text-transform: uppercase;
